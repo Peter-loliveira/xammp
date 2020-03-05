@@ -1,0 +1,19 @@
+.margem-acima{
+    margin-top: 200px;
+}
+
+.img-redonda{
+    border-radius: 50%;
+    width: 100px;
+    border: 1px solid white;
+    opacity: 80%;
+}
+
+#imagem{
+    align-items: center;
+    background-color: white;
+}
+
+body{
+    margin: 0 auto;
+}
