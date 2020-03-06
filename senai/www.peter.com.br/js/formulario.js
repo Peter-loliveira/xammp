@@ -9,7 +9,7 @@ function exibirDadosDigitados(){
     var mensagem = document.getElementById("mensagem").value
     
     alert(`
-    - Nome: ${nome}
+    -Nome: ${nome}
     -E-mail: ${email} 
     -Telefone: ${telefone}
     -Mensagem: ${mensagem}`

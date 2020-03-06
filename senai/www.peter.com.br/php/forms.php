@@ -37,7 +37,7 @@
       <input id="telefone" type="text">
     </div>
     <div>
-      <input id="texto" type="text">
+      <input id="mensagem" type="text">
     </div>
     <button id="enviar" class="btn btn-primary">Enviar</button>
   </div>
