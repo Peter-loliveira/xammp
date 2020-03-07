@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div>
+
+    <table id="tabela">
+        <tr>
+            <th>Teste1</th>
+            <th>Teste2</th>
+            <th>Teste2</th>
+            <th>Teste3</th>
+            <th>Teste4</th>
+        </tr>
+    </table>
+</div>
+    
+    <button id="botao">ENVIAR</button>
+
+    <script>
+        var bt = document.getElementById("botao")
+        bt.onclick = function () {
+            criarLinha()
+        }
+        function criarLinha() {
+            var table = document.getElementById("tabela")
+            var tr = document.createElement("tr")
+            table.appendChild(tr)
+            let td1 = document.createElement("td")
+            td1.innerHTML = "Teste1"
+            let td2 = document.createElement("td")
+            td2.innerHTML = "Teste2"
+            let td3 = document.createElement("td")
+            td3.innerHTML = "Teste3"
+            let td4 = document.createElement("td")
+            td4.innerHTML = "Teste4"
+            tr.appendChild(td1)
+            tr.appendChild(td2)
+            tr.appendChild(td3)
+            tr.appendChild(td4)
+        }
+    </script>
+</body>
+
+</html>
