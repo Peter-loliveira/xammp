@@ -9,12 +9,14 @@ botao.innerHTML = "Adicionar"
 botao.onclick = function () {
     criarLista()
 }
+
 lista.appendChild(botao)
 
 var ul = document.createElement("ul")
-lista.appendChild(ul)
+lista.appendChild(ul) 
 
-function criarLista(itens) {
+// function criarLista(itens) {
+var criarLista = (itens) => {
     let voltas = caixa.value
     for (i = 1; i <= voltas; i++) {
         let li = document.createElement("li")
