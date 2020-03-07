@@ -8,13 +8,13 @@ var mudaCorLinhas = true
 function criarCleinte(){
     let tabela = document.getElementById("tablela")
     let linha = document.createElement("tr")
-    if (mudaCorLinhas) {
-        linha.style.backgroundColor = "#686868";
+    // if (mudaCorLinhas) {
+    //     linha.style.backgroundColor = "#686868";
 
-        mudaCorLinhas = false
-    }else {
-        mudaCorLinhas = true
-    }
+    //     mudaCorLinhas = false
+    // }else {
+    //     mudaCorLinhas = true
+    // }
     tabela.appendChild(linha)
 
     let colNome = document.createElement("td")
@@ -38,6 +38,7 @@ function criarCleinte(){
     linha.appendChild(colPais)    
 
     let colAcoes = document.createElement("td")    
+    colAcoes.setAttribute("class", "acoes")
     
     let buttonDetalhes = document.createElement("button")
     buttonDetalhes.innerHTML = "Detalhes"

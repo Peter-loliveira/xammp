@@ -10,6 +10,11 @@ th{
     width: 550px;
     text-align: center;
 }
+.acoes{
+    text-align: right;
+}
+
+
 
 nav{
     color: white;    
@@ -41,7 +46,7 @@ i{
 
 button{
     width: 120px;
-    margin:0px 20px;
+    margin:0px 2px;
 }
 
 section{
@@ -56,4 +61,12 @@ input{
 
 label{
     margin-left: 10px;
+}
+
+label, input{
+    margin-top: 10px;
+}
+
+#salvar{
+    margin-top: 3px;
 }
