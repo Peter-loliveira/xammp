@@ -1,0 +1,29 @@
+th{
+    padding-left: 50px;
+}
+
+.btn-peter{
+    font-weight: bold;
+}
+
+#acoes{
+    width: 250px;
+}
+
+.texto-alinhado{
+    /* text-align: center; */
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    margin-left: 5px;
+}
+

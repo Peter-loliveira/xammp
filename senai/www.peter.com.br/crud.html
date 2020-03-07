@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" id="dokan-fontawesome-css" href="https://themes.getbootstrap.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/font-awesome.min.css?ver=2.9.27" type="text/css" media="all">
+        <link rel="stylesheet" href="css/crud.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Cadastro de Clientes</h1>
+        <ul>
+            <li>Home</li>
+            <li>Clientes</li>
+        </ul>
+    </nav>
+    <div id="campos">
+        <label for="">Nome:</label>
+        <input type="text" placeholder="Digite seu Nome">
+        <label for="">email:</label>
+        <input type="text" placeholder="Digite seu E-Mail">
+        <label for="">idade:</label>
+        <input type="number" placeholder="Digite sua Idade">
+        <label for="">email:</label>
+        <input type="text" placeholder="Digite seu Pais">
+        <button class="btn btn-success" id="salvar">Salvar</button>
+    </div>
+    <table class="table table-dark">
+        <tr class="texto-alinhado">
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Idade</th>
+            <th>Pais</th>
+            <th id="acoes">Ações</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>peter@gmail.com</td>
+            <td>145</td>
+            <td>Canada</td>
+            <td>
+                <button class="btn btn-primary btn-peter">Detalhes<i class="fa fa-file-text-o" aria-hidden="true"></i></button>
+                <button class="btn btn-success btn-peter">Editar<i class="fa fa-pencil-square" aria-hidden="true"></i></button>
+                <button class="btn btn-danger btn-peter">Deletar<i class="fa fa-trash-o" aria-hidden="true"></i></button>
+            </td>
+        </tr>
+
+    </table>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="js/crud.js"></script>
+</body>
+
+</html>
+
+<!-- 
+<link rel="stylesheet" id="dokan-fontawesome-css" href="https://themes.getbootstrap.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/font-awesome.min.css?ver=2.9.27" type="text/css" media="all">
+
+
+https://fontawesome.com/v4.7.0/icon/trash-o
+ -->
