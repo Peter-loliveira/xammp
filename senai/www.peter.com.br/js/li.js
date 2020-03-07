@@ -16,7 +16,7 @@ var ul = document.createElement("ul")
 lista.appendChild(ul) 
 
 // function criarLista(itens) {
-var criarLista = (itens) => {
+const criarLista = (itens) => {
     let voltas = caixa.value
     for (i = 1; i <= voltas; i++) {
         let li = document.createElement("li")
