@@ -1,72 +1,100 @@
-th{
-    padding-left: 50px;
+#idade{
+    width: 60px;
+}
+#email, #nome{
+    width: 300px;
+}
+#menu{
+    padding-top: 15px;
 }
 
-.btn-peter{
-    font-weight: bold;
-}
-
-#acoes{
-    width: 550px;
+#TituloAcoes {
     text-align: center;
 }
-.acoes{
-    text-align: right;
-}
 
-
-
-nav{
-    color: white;    
-    justify-content:space-between;
-    height: 100px;
+#campos {
     display: flex;
-    align-items: center;
-    padding: 0px 10px;    
+    justify-content: space-between;
 }
 
-ul{    
+.btn-peter {
+    font-weight: bold;
+    height: 40px;
+}
+
+.colunaAcoes {
+    text-align: right;/*Faz os botões GERADOS se alinharem à direita*/
+}
+
+#salvar {
+    margin-top: 3px;
+}
+
+#tituloNome, .colunaNome{
+    width: 350px;
+}
+#tituloEmail, .colunaEmail{
+    width: 350px;
+}
+#tituloIdade, .colunaIdade{
+    width: 100px;
+    text-align: center;
+}
+#tituloPais, .colunaPais{
+    width: 250px;
+}
+#TituloAcoes, .colunaacoes{
+    width: 450px;
+}
+
+th {
+    padding-left: 50px;
+    background-color: #f2f2f2;
+}
+
+nav {
+    color: white;
+    height: 100px;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+ul {
     list-style: none;
 }
 
-li{
+li {
     display: inline;
     font-size: 20px;
     margin-left: 5px;
 }
-#campos{    
-    display: flex;
-    justify-content:space-between;    
-    /* background-color: #1b1b1b; */
-}
 
-i{
+i {
     margin-left: 10px;
 }
 
-button{
+button {
     width: 120px;
-    margin:0px 2px;
+    margin: 0px 2px;
 }
 
-section{
+section {
     padding: 5px 0px;
     background-color: #e3f2fd
 }
-input{
-    /* border-radius: 2px; */
-    /* margin: 0px; */
-    margin-left: 20px;
+
+input {    
+    margin-left: 5px;
 }
 
-label{
+label {
     margin-left: 10px;
 }
 
-label, input{
-    margin-top: 10px; 
+label, input {
+    margin-top: 10px;
 }
 
-#salvar{
-    margin-top: 3px;
+th, td {
+    border: 1px solid #80808038;
 }

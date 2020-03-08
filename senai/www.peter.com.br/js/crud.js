@@ -8,37 +8,41 @@ var mudaCorLinhas = true
 function criarCleinte(){
     let tabela = document.getElementById("tablela")
     let linha = document.createElement("tr")
-    // if (mudaCorLinhas) {
-    //     linha.style.backgroundColor = "#686868";
+    if (!mudaCorLinhas) {
+        linha.style.backgroundColor = "#f2f2f2";
 
-    //     mudaCorLinhas = false
-    // }else {
-    //     mudaCorLinhas = true
-    // }
+        mudaCorLinhas = true
+    }else {
+        mudaCorLinhas = false
+    }
     tabela.appendChild(linha)
 
     let colNome = document.createElement("td")
+    colNome.setAttribute("class", "colunaNome")
     let nome = document.getElementById("nome").value
     colNome.innerHTML = nome
     linha.appendChild(colNome)
-
+    
     let colEmail = document.createElement("td")
+    colEmail.setAttribute("class", "colunaEmail")
     let email = document.getElementById("email").value
     colEmail.innerHTML = email
     linha.appendChild(colEmail)
-
+    
     let colIDade = document.createElement("td")
+    colIDade.setAttribute("class", "colunaIdade")
     let idade = document.getElementById("idade").value
     colIDade.innerHTML = idade
     linha.appendChild(colIDade)
-
+    
     let colPais = document.createElement("td")
+    colPais.setAttribute("class", "colunaPais")
     let pais = document.getElementById("pais").value 
     colPais.innerHTML = pais
     linha.appendChild(colPais)    
 
     let colAcoes = document.createElement("td")    
-    colAcoes.setAttribute("class", "acoes")
+    colAcoes.setAttribute("class", "colunaAcoes")
     
     let buttonDetalhes = document.createElement("button")
     buttonDetalhes.innerHTML = "Detalhes"
@@ -70,7 +74,3 @@ function criarCleinte(){
     linha.appendChild(colAcoes)
 
 }
-
-
-{/* <button class="btn btn-success btn-peter">Editar<i class="fa fa-pencil-square" aria-hidden="true"></i></button>
-<button class="btn btn-danger btn-peter">Deletar<i class="fa fa-trash-o" aria-hidden="true"></i></button> */}
