@@ -40,7 +40,6 @@ function criarCleinte() {
     let linha = document.createElement("tr")
     if (!mudaCorLinhas) {
         linha.style.backgroundColor = "#f2f2f2";
-
         mudaCorLinhas = true
     } else {
         mudaCorLinhas = false
@@ -49,25 +48,21 @@ function criarCleinte() {
 
     let colNome = document.createElement("td")
     colNome.setAttribute("class", "colunaNome")
-    // var nome = document.getElementById("nome").value
     colNome.innerHTML = document.getElementById("nome").value
     linha.appendChild(colNome)
 
     let colEmail = document.createElement("td")
     colEmail.setAttribute("class", "colunaEmail")
-    // var email = document.getElementById("email").value    
     colEmail.innerHTML = document.getElementById("email").value
     linha.appendChild(colEmail)
 
     let colIDade = document.createElement("td")
     colIDade.setAttribute("class", "colunaIdade")
-    // var idade = document.getElementById("idade").value
     colIDade.innerHTML = document.getElementById("idade").value
     linha.appendChild(colIDade)
 
     let colPais = document.createElement("td")
     colPais.setAttribute("class", "colunaPais")
-    // var pais = document.getElementById("pais").value
     colPais.innerHTML = document.getElementById("pais").value
     linha.appendChild(colPais)
 
